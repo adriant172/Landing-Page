@@ -2,23 +2,59 @@
 body {
     font-family: Roboto, sans-serif;
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
 }
 .header {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    
 }
 
-.header-logo {
+.logo {
     color: #F9FAF8;
     font-size: 24px;
 
 }
 ul {
+    display: flex;
+    gap: 8px;
     list-style-type: none;
     padding-left: 0px;
 }
-li, .title-text{
+a, .title-text{
     color: #E5E7EB;
     font-size: 18px;
+    text-decoration: none;
 
+}
+.logo-and-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.header-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1 1 auto;
+}
+
+.header-content {
+    display: flex;
+    flex-flow: column wrap;
+    width: 350px;
+    
+}
+.main-title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+button {
+    background-color: #3882f6;
+    align-self: flex-start;
+    
 }
