@@ -6,6 +6,7 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 .header {
     background-color: #1F2937;
@@ -141,3 +142,6 @@ button {
     align-self: flex-end;
     font-weight: 900;
 }
+
+/* Styling for sign up section*/
+
