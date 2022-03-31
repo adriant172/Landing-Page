@@ -98,6 +98,7 @@ button {
 .info-image {
     width: 200px;
     height: 200px;
+    border-radius: 4px;
 }
 
 .cards {
