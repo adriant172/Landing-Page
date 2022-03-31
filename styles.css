@@ -115,3 +115,29 @@ button {
     color: #A9A9A9;
     text-align: center;
 }
+
+/* Styling for quote section */
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-content{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 150px;
+}
+
+.actual-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1F2937;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: 900;
+}
