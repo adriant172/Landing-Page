@@ -171,3 +171,16 @@ button {
 .sign-up-button {
     border-color: #E5E7EB;
 }
+
+/* Styling for footer section*/
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    padding:40px 0px;
+}
+.footer-text {
+    color: #F9FAF8;
+    font-size: 14px;
+}
