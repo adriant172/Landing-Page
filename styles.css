@@ -151,14 +151,16 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 100px 200px;
+    padding: 50px 75px;
 }
 .sign-up-content {
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: #3882F6;
-    padding: 50px 80px;
+    padding: 25px 60px;
+    gap: 50px;
+    border-radius: 4px;
 }
 .sign-up-text {
     display: flex;
@@ -167,6 +169,5 @@ button {
     color: #F9FAF8;
 }
 .sign-up-button {
-    border-color: #F9FAF8;
-    border-style: initial;
+    border-color: #E5E7EB;
 }
