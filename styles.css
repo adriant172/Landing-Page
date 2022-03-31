@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+
+
+/* Styling for the Header Section  */
 body {
     font-family: Roboto, sans-serif;
     display: flex;
@@ -69,4 +72,46 @@ button {
     border-style: none;
     width: 80px;
     height: 25px;
+}
+
+/* Styling for the Info section */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info-title {
+    margin-top: 50px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-image {
+    width: 200px;
+    height: 200px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+.card {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 200px;
+}
+
+.subtitles {
+    font-size: 18px;
+    color: #A9A9A9;
+    text-align: center;
 }
