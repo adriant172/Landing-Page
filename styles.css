@@ -144,4 +144,20 @@ button {
 }
 
 /* Styling for sign up section*/
-
+.sign-up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 200px;
+}
+.sign-up-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    padding: 50px 80px;
+}
+.sign-up-text {
+    color: #F9FAF8;
+    
+}
