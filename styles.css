@@ -127,7 +127,7 @@ button {
 .quote-content{
     display: flex;
     flex-flow: column wrap;
-    padding: 150px;
+    padding: 150px 300px;
 }
 
 .actual-quote {
